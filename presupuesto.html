@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>María José Serna</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a class="Logo" href="#">
+            <img src="/img/Logo.png" >
+          </a>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="experiencia.html">Experiencia &dtrif;</a>
+              <ul class="sub-nav">
+                <li><a href="#diseño">Diseño Gráfico</a></li>
+                <li><a href="#desarrollo">Desarrollo</a></li>
+                <li><a href="#voluntariado">Voluntariado</a></li>
+              </ul>
+            <li><a href="presupuesto.html">Presupuestos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+  
+      </div>
+    </header>
+
+    <div class="container" id="formulario">
+      <h1 class="titulo">Presupuestos</h1>
+
+      <p>Completá el siguiente formulario para recibir una cotización</p>
+
+      <form>
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" /><br />
+        <label for="apellido">Apellido</label><br />
+        <input type="text" id="apellido" name="apellido" /><br />
+        <label for="email">E-mail</label><br />
+        <input type="text" id="email" name="email" /><br />
+        <label for="telefono">Teléfono</label><br />
+        <input type="text" id="telefono" name="telefono" /><br />
+        <label for="servicio">¿Que servicio necesitas?</label><br />
+        <select id="servicio" name="servicio">
+          <option value="publicidad">Publicidad</option>
+          <option value="identidad">Identidad</option>
+          <option value="folleteria">Folletería</option>
+          <option value="rrss">Redes Sociales</option>
+          <option value="otro">Otro</option>
+        </select>
+        <br />
+
+        <textarea name="detalle" style="width: 200px; height: 200px">
+            Breve descripción de la pieza que quieres realizar
+      </textarea
+        >
+
+        <br />
+
+        <input type="button" value="enviar" /><br />
+      </form>
+    </div>
+  </body>
+</html>
