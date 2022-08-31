@@ -116,3 +116,8 @@ img {
   width: 8rem;
   height: 8rem;
 }
+
+.imgInicio {
+  border-radius: 30rem;
+  width: 20rem;
+}
